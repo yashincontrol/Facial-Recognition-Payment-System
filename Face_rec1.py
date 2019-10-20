@@ -18,7 +18,7 @@ fontface = cv2.FONT_HERSHEY_SIMPLEX
 fontscale = 1
 fontColor = (255, 255, 255)
 # Open database connection
-db = mysql.connector.connect(host='localhost',database='bank',user='root',password='yashincontrol' )        
+db = mysql.connector.connect(host='localhost',database='bank',user='root',password='********' )        
 # prepare a cursor object using cursor() method
 cursor = db.cursor() 
 while 1:
